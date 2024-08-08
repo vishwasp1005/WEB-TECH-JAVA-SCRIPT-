@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab-4-1</title>
+</head>
+<body>
+<script type="text/javascript">
+	let faculty =[
+  {
+    "name": "Marvin Mraz",
+    "surname": "Dr. Vicky D'Amore",
+    "subject": "Jeremy Pollich",
+    "id": "1"
+  },
+  {
+    "name": "Grady Kertzmann",
+    "surname": "Chris Turner",
+    "subject": "Elaine Fahey",
+    "id": "2"
+  },
+  {
+    "name": "Herman Windler",
+    "surname": "Mrs. Carl Boyer",
+    "subject": "Hector Keeling",
+    "id": "3"
+  },
+  {
+    "name": "Caroline Langosh",
+    "surname": "Shane Heidenreich V",
+    "subject": "Gail Welch",
+    "id": "4"
+  },
+  {
+    "name": "Benjamin Stokes",
+    "surname": "Andrew Lang",
+    "subject": "Theresa Wilderman",
+    "id": "5"
+  }
+
+]
+	document.write("<table border=3>");
+	for(let i=0;i<faculty.length;i++){
+			document.write("<tr>");
+			document.write("<td>"+faculty[i].id+"</td>");
+			document.write("<td>"+faculty[i].name+"</td>");
+			document.write("<td>"+faculty[i].surname+"</td>");
+			document.write("<td>"+faculty[i].subject+"</td>");
+			document.write("</tr>");
+	}
+	document.write("</table>");
+</script>
+</body>
+</html>

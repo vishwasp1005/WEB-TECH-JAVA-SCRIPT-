@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab 7-6</title>
+</head>
+<body>
+	<script type="text/javascript">
+		 arr = [3,4,5];
+	 arr2 = [10,9,8];
+	obj={
+		a:'7',
+		b:'11',
+		c:'14',
+		d:'15'
+	};
+
+	arr3 = [...arr,...arr2];
+	const [e,f,...rest] = arr3;
+	console.log("destructed array =" +rest);
+	const {a,b,...restobj} = obj;
+	console.log("destructed obj =" ,restobj);
+	
+	</script>
+
+</body>
+</html>

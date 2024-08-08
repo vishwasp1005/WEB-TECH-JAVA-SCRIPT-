@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab-4-3</title>
+</head>
+<body>
+<script type="text/javascript">
+	let Students = [
+  {
+    "name": "Molly",
+    "surname": "Rosie Klocko DVM",
+    "rollno": 38480,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1147.jpg",
+    "id": "1"
+  },
+  {
+    "name": "Oleta",
+    "surname": "Ann Vandervort",
+    "rollno": 4652,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/946.jpg",
+    "id": "2"
+  },
+  {
+    "name": "Kris",
+    "surname": "Jodi Vandervort",
+    "rollno": 56583,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/841.jpg",
+    "id": "3"
+  },
+  {
+    "name": "Ulises",
+    "surname": "Mr. Ronald Schultz",
+    "rollno": 27698,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/148.jpg",
+    "id": "4"
+  },
+  {
+    "name": "Felton",
+    "surname": "Eunice Waters",
+    "rollno": 65853,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/280.jpg",
+    "id": "5"
+  },
+  {
+    "name": "Daphne",
+    "surname": "Cathy Schoen",
+    "rollno": 88369,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/317.jpg",
+    "id": "6"
+  },
+  {
+    "name": "Sigmund",
+    "surname": "Miss Van Veum",
+    "rollno": 35937,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1167.jpg",
+    "id": "7"
+  },
+  {
+    "name": "Marquis",
+    "surname": "Mr. Melba Daniel",
+    "rollno": 86042,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1039.jpg",
+    "id": "8"
+  },
+  {
+    "name": "Keeley",
+    "surname": "Ada Rice",
+    "rollno": 20414,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/511.jpg",
+    "id": "9"
+  },
+  {
+    "name": "Torey",
+    "surname": "Ms. Eunice Mayert",
+    "rollno": 93471,
+    "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1154.jpg",
+    "id": "10"
+  }
+]
+	document.write("<table border=1>");
+	for(let i=0;i<Students.length;i++){
+			document.write("<tr>");
+			document.write("<td>"+Students[i].name+"</td>");
+			document.write("<td>"+Students[i].surname+"</td>");
+			document.write("<td>"+Students[i].rollno+"</td>");
+			document.write("<td>"+Students[i].id+"</td>");
+			document.write("<td> <img src= "+Students[i].image+"></td>");
+			document.write("</tr>");
+
+
+	}
+	document.write("</table");
+</script>
+</body>
+</html>

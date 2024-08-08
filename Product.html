@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab-4-4</title>
+</head>
+<body>
+<script type="text/javascript">
+	let Products =
+	[
+
+  {
+    "name": "Miss Lee Green III",
+    "price": 5835,
+    "brand": "6",
+    "id": "1"
+  },
+  {
+    "name": "Patty Barrows",
+    "price": 47987,
+    "brand": "3",
+    "id": "2"
+  },
+  {
+    "name": "Dianne Harber",
+    "price": 10699,
+    "brand": "3",
+    "id": "3"
+  },
+  {
+    "name": "Geneva Quitzon",
+    "price": 94918,
+    "brand": "2",
+    "id": "4"
+  },
+  {
+    "name": "Diane VonRueden",
+    "price": 77535,
+    "brand": "9",
+    "id": "5"
+  }
+]
+	
+
+
+	document.write("<table border=1>");
+	for(let i=0;i<Products.length;i++){
+			document.write("<tr>");
+			document.write("<td>"+Products[i].name+"</td>");
+			document.write("<td>"+Products[i].price+"</td>");
+			document.write("<td>"+Products[i].brand+"</td>");
+			document.write("<td>"+Products[i].id+"</td>");
+			
+			document.write("</tr>");
+	}
+	document.write("</table");
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pelindrome</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let a=parseInt(prompt("Enter a number"))
+		let c=a
+       let b=0
+       while(a > 0)
+       {
+         let temp= a % 10
+         b=(b*10)+temp
+         a = parseInt(a/10)
+
+
+
+       }
+       document.write(b)
+       if ( c==b)
+       {
+       	alert( "given number is Pelindrome")
+       }
+       else{
+       	alert("given number is  not Pelindrome")
+       }
+
+		
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lab 3-2</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		let sort = [2,4,6,8,1,5,3];
+		console.log("array :",sort)
+		for(let i=0;i<sort.length;i++){
+			for(let j=0;j<sort.length-i-1;j++)
+			{
+				if(sort[j]>sort[j+1]){
+					temp = sort[j]
+					sort[j] = sort[j+1]
+					sort [j+1] = temp
+				}
+			}
+		}
+		console.log("bubble sort :"+sort);
+
+	</script>
+
+</body>
+</html>
